@@ -25,7 +25,7 @@ switch ($request) {
         require __DIR__ . '/'.$files.'/login.php';
         break;
     case '/styles/login' :
-        require __DIR__ . '/'.$files.'/css/login.css';
+        require __DIR__ . '/'.$assets.'/css/login.css';
         break;
     default:
         http_response_code(404);
