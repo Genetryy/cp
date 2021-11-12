@@ -36,6 +36,4 @@ switch ($request) {
 
 if(!$_SESSION['login']) {
     header("Location: /login");
-} else {
-    break;
 }
