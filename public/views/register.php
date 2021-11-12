@@ -90,7 +90,7 @@ if($pw1 = $pw2) {
     $pdo = new PDO('mysql:host=localhost;dbname=accounts', 'genetry.net', 'cheA15xeAqxeT4D2Rlyktm^oj');
 
     $statement = $pdo->prepare("INSERT INTO users (username, password) VALUES (?, ?)");
-    $statement->execute(array($username, $password));   
+    $statement->execute(array($username, $pw1));   
 } else {
     echo "The passwords aren't matching."
 }
