@@ -37,7 +37,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">Login</div>
+                    <div class="card-header">Register</div>
                     <div class="card-body">
                         <form action="" method="POST">
                             <div class="form-group row">
@@ -55,22 +55,16 @@
                             </div>
 
                             <div class="form-group row">
-                                <div class="col-md-6 offset-md-4">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox" name="remember"> Remember Me
-                                        </label>
-                                    </div>
+                                <label for="password" class="col-md-4 col-form-label text-md-right">Password (repition)</label>
+                                <div class="col-md-6">
+                                    <input type="password" id="password_2" class="form-control" name="password_2" required>
                                 </div>
                             </div>
 
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                    Login
+                                    Register
                                 </button>
-                                <a href="register" class="btn btn-link">
-                                    No account yet?
-                                </a>
                             </div>
                     </div>
                     </form>
