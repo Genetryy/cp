@@ -39,7 +39,7 @@
                 <div class="card">
                     <div class="card-header">Login</div>
                     <div class="card-body">
-                        <form action="" method="">
+                        <form action="" method="POST">
                             <div class="form-group row">
                                 <label for="email_address" class="col-md-4 col-form-label text-md-right">Username</label>
                                 <div class="col-md-6">
@@ -68,7 +68,7 @@
                                 <button type="submit" class="btn btn-primary">
                                     Login
                                 </button>
-                                <a href="#" class="btn btn-link">
+                                <a href="register" class="btn btn-link">
                                     No account yet?
                                 </a>
                             </div>
