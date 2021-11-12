@@ -35,5 +35,5 @@ switch ($request) {
 ///////////////////////////////////////////////////////////
 
 if(!$_SESSION['login']) {
-    header("Location: /login");
+    echo("Not logged in yet!");
 }
