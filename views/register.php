@@ -76,18 +76,6 @@
 
 </main>
 
-<?php
 
-$username = $_POST['username'];
-$pw1 = $_POST['password'];
-$pw2 = $_POST['password_2'];
-
-if($pw1 != $pw2) {
-    echo "The password don't match!";
-} else {
-    exit;
-}
-
-?>
 </body>
 </html>
