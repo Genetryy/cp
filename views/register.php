@@ -65,10 +65,10 @@
                                 <button type="submit" class="btn btn-primary">
                                     Register
                                 </button>
-                            </div>
                                 <a href="login" class="btn btn-link">
                                     Already registered?
                                 </a>
+                            </div>
                             </div>
                     </div>
                     </form>
