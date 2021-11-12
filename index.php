@@ -33,6 +33,9 @@ switch ($request) {
     case '/styles/js/bootstrap' :
         require __DIR__ . '/'.$assets.'/js/bootstrap.min.js';
         break;
+    case '/styles/own/login' :
+        require __DIR__ . '/'.$assets.'/css/login.css';
+        break;
     default:
         http_response_code(404);
         require __DIR__ . '/'.$files.'/404.php';

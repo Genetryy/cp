@@ -1,6 +1,9 @@
 <head>
     <title> Login </title>
     <link rel="stylesheet" href="/styles/css/bootstrap">
+    <link rel="stylesheet" href="/styles/own/login">
+    <script src="/styles/js/bootstrap/"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
     <div class="container-sm">
