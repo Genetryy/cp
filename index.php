@@ -24,6 +24,9 @@ switch ($request) {
     case '/login' :
         require __DIR__ . '/'.$files.'/login.php';
         break;
+    case '/register' :
+        require __DIR__ . '/'.$files.'/register.php';
+        break;
     case '/admin/users' :
         require __DIR__ . '/'.$files.'/admin_users.php';
         break;
