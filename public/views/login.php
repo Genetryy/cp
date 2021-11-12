@@ -82,5 +82,18 @@
 
 </main>
 
+<?php
+
+$username = $_POST['username'];
+
+$pdo = new PDO('mysql:host=localhost;dbname=accounts', 'genetry.net', 'cheA15xeAqxeT4D2Rlyktm^oj');
+
+$sql = "SELECT * FROM accounts WHERE username IS".$username;
+foreach ($pdo->query($sql) as $row) {
+    echo $row['password'];
+}
+
+?>
+
 </body>
 </html>
