@@ -1,3 +1,7 @@
+<!-- Currently static. i'll change that later. -->
+
+
+
 <head>
     <title> Users </title>
     <link rel="stylesheet" href="/styles/css/bootstrap">

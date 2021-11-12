@@ -1,83 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
 body {
-    padding-top: 4.2rem;
-    padding-bottom: 4.2rem;
-    background: rgba(0, 0, 0, 0.76);
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f8fa;
 }
 
-a {
-    text-decoration: none !important;
+.navbar-laravel {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .04);
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'Kaushan Script', cursive;
+.navbar-brand,
+.nav-link,
+.my-form,
+.login-form {
+    font-family: Raleway, sans-serif;
 }
 
-.myform {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 1rem;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: 1.1rem;
-    outline: 0;
-    max-width: 500px;
+.my-form {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
-.tx-tfm {
-    text-transform: uppercase;
+.my-form .row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.mybtn {
-    border-radius: 50px;
+.login-form {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
-.login-or {
-    position: relative;
-    color: #aaa;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.span-or {
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: -2px;
-    margin-left: -25px;
-    background-color: #fff;
-    width: 50px;
-    text-align: center;
-}
-
-.hr-or {
-    height: 1px;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-}
-
-.google {
-    color: #666;
-    width: 100%;
-    height: 40px;
-    text-align: center;
-    outline: none;
-    border: 1px solid lightgrey;
-}
-
-form .error {
-    color: #ff0000;
-}
-
-#second {
-    display: none;
+.login-form .row {
+    margin-left: 0;
+    margin-right: 0;
 }
