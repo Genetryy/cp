@@ -80,6 +80,23 @@
 
 </main>
 
+<?php
+
+$username = $_POST['username'];
+$pw1 = $_POST['password'];
+$pw2 = $_POST['password_2']
+
+if($pw1 = $pw2) {
+    $pdo = new PDO('mysql:host=localhost;dbname=accounts', 'genetry.net', 'cheA15xeAqxeT4D2Rlyktm^oj');
+
+    $statement = $pdo->prepare("INSERT INTO users (username, password) VALUES (?, ?)");
+    $statement->execute(array($username, $password));   
+    }
+}
+
+
+
+?>
 
 </body>
 </html>

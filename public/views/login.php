@@ -93,6 +93,8 @@ $statement->execute(array($username));
 while($row = $statement->fetch()) {
    $pw = $row['password'];
    if($password = $pw) {
+       session_start();
+       $_SESSION['login'] = 1;
        header("Location: admin/users");
    }
 }
