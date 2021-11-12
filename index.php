@@ -26,3 +26,16 @@ switch ($request) {
         require __DIR__ . '/views/404.php';
         break;
 }
+
+
+///////////////////////////////////////////////////////////
+//
+//          Login Helper
+//
+///////////////////////////////////////////////////////////
+
+if(!$_SESSION['login']) {
+    header("Location: /login");
+} else {
+    break;
+}
