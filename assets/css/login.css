@@ -70,3 +70,8 @@ body {
 .btn-black:hover {
     color: #fff;
 }
+
+p {
+    color: grey;
+    font-weight: 100;
+}

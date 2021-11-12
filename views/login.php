@@ -8,8 +8,8 @@
 <body>
 <div class="sidenav">
          <div class="login-main-text">
-            <h2>Application<br> Login Page</h2>
-            <p>Login or register from here to access.</p>
+            <h2>Controllpanel <br> Login</h2>
+            <p>Login to access.</p>
          </div>
       </div>
       <div class="main">
@@ -17,15 +17,15 @@
             <div class="login-form">
                <form>
                   <div class="form-group">
-                     <label>User Name</label>
-                     <input type="text" class="form-control" placeholder="User Name">
+                     <label>Username</label>
+                     <input type="text" class="form-control" placeholder="Username">
                   </div>
                   <div class="form-group">
                      <label>Password</label>
                      <input type="password" class="form-control" placeholder="Password">
                   </div>
                   <br><button type="submit" class="btn btn-black">Login</button>
-                  <p> No account? <a href="/register">Register</a>
+                  <p> No account yet? <a href="/register">Register</a>
                </form>
             </div>
          </div>
