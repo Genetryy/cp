@@ -91,7 +91,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=accounts', 'genetry.net', 'cheA15xeA
 $statement = $pdo->prepare("SELECT * FROM users WHERE username = ?");
 $statement->execute(array($username));   
 while($row = $statement->fetch()) {
-   echo $row['username']."<br />";
+   echo $row['password']."<br />";
 }
 
 ?>
