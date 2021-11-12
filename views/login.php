@@ -43,7 +43,7 @@
                             <div class="form-group row">
                                 <label for="email_address" class="col-md-4 col-form-label text-md-right">Username</label>
                                 <div class="col-md-6">
-                                    <input type="text" id="email_address" class="form-control" name="email-address" required autofocus>
+                                    <input type="text" id="username" class="form-control" name="username" required autofocus>
                                 </div>
                             </div>
 
@@ -87,6 +87,11 @@
 
 
 
+<?php
 
+echo $_POST['username'];
+echo $_POST['password'];
+
+?>
 </body>
 </html>
