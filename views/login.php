@@ -6,17 +6,28 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
-    <div class="container-sm">
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1">@</span>
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-    </div>
-
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleFormControlInput1">
-    </div>
-
-    <button type="button" class="btn btn-primary">Login</button>
-    </div>
+<div class="sidenav">
+         <div class="login-main-text">
+            <h2>Application<br> Login Page</h2>
+            <p>Login or register from here to access.</p>
+         </div>
+      </div>
+      <div class="main">
+         <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+               <form>
+                  <div class="form-group">
+                     <label>User Name</label>
+                     <input type="text" class="form-control" placeholder="User Name">
+                  </div>
+                  <div class="form-group">
+                     <label>Password</label>
+                     <input type="password" class="form-control" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-black">Login</button>
+                  <button type="submit" class="btn btn-secondary">Register</button>
+               </form>
+            </div>
+         </div>
+      </div>
 </body>
