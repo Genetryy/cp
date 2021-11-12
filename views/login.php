@@ -25,7 +25,7 @@
                      <input type="password" class="form-control" placeholder="Password">
                   </div>
                   <button type="submit" class="btn btn-black">Login</button>
-                  <button type="submit" class="btn btn-secondary">Register</button>
+                  <p> No account? <a href="/register">Register</a>
                </form>
             </div>
          </div>
