@@ -13,37 +13,37 @@ $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
     case '/' :
-        require __DIR__ . '/'.$files.'/index.php';
+        require __DIR__ . '/public'.$files.'/index.php';
         break;
     case '' :
-        require __DIR__ . '/'.$files.'/index.php';
+        require __DIR__ . '/public'.$files.'/index.php';
         break;
     case '/reset' :
-        require __DIR__ . '/'.$files.'/passwordrequest.php';
+        require __DIR__ . '/public'.$files.'/passwordrequest.php';
         break;
     case '/login' :
-        require __DIR__ . '/'.$files.'/login.php';
+        require __DIR__ . '/public'.$files.'/login.php';
         break;
     case '/register' :
-        require __DIR__ . '/'.$files.'/register.php';
+        require __DIR__ . '/public'.$files.'/register.php';
         break;
     case '/admin/users' :
-        require __DIR__ . '/'.$files.'/admin_users.php';
+        require __DIR__ . '/public'.$files.'/admin_users.php';
         break;
     case '/styles/css/bootstrap' :
-        require __DIR__ . '/'.$assets.'/css/bootstrap.min.css';
+        require __DIR__ . '/public'.$assets.'/css/bootstrap.min.css';
         break;
     case '/styles/js/bootstrap' :
-        require __DIR__ . '/'.$assets.'/js/bootstrap.min.js';
+        require __DIR__ . '/public'.$assets.'/js/bootstrap.min.js';
         break;
     case '/styles/own/login/css' :
-        require __DIR__ . '/'.$assets.'/css/login.css';
+        require __DIR__ . '/public'.$assets.'/css/login.css';
         break;
     case '/styles/own/login/js' :
-        require __DIR__ . '/'.$assets.'/js/login.js';
+        require __DIR__ . '/public'.$assets.'/js/login.js';
         break;
     default:
         http_response_code(404);
-        require __DIR__ . '/'.$files.'/404.php';
+        require __DIR__ . '/public'.$files.'/404.php';
         break;
 }
