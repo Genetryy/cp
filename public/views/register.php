@@ -91,8 +91,9 @@ if($pw1 = $pw2) {
 
     $statement = $pdo->prepare("INSERT INTO users (username, password) VALUES (?, ?)");
     $statement->execute(array($username, $password));   
+} else {
+    echo "The passwords aren't matching."
 }
-
 
 
 ?>
