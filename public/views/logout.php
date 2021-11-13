@@ -1,1 +1,3 @@
-<button type="button" class="btn-close" aria-label="Close" href="logout"></button> Are you shure yoou want to logout?
+<div class="alert alert-danger" role="alert">
+  Danger! Do you really want to logout? <a href="/logout">Yes </a>
+</div>
