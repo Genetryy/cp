@@ -88,10 +88,10 @@ $username = $_POST['username'];
 
 $pdo = new PDO('mysql:host=localhost;dbname=accounts', 'genetry.net', 'cheA15xeAqxeT4D2Rlyktm^oj');
 
-$statement = $pdo->prepare("SELECT * FROM users WHERE username = ?");
+$statement = $pdo->prepare("SELECT * FROM users WHERE uname = ?");
 $statement->execute(array($username));   
 while($row = $statement->fetch()) {
-   $pw = $row['password'];
+   $pw = $row['pw'];
    if($password = $pw) {
        session_start();
        $_SESSION['login'] = 1;
