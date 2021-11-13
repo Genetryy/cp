@@ -84,6 +84,8 @@
 
 <?php
 
+require_once("private/notify");
+
 $username = $_POST['username'];
 
 $pdo = new PDO('mysql:host=localhost;dbname=accounts', 'genetry.net', 'cheA15xeAqxeT4D2Rlyktm^oj');
@@ -96,7 +98,7 @@ while($row = $statement->fetch()) {
    if($password = $pw) {
        session_start();
        $_SESSION['login'] = array("uname" => $username);
-       header("Location: admin/users");
+       notify("success", "Success!");
    }
 }
 
