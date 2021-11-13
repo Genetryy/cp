@@ -92,6 +92,7 @@ $statement = $pdo->prepare("SELECT * FROM users WHERE uname = ?");
 $statement->execute(array($username));   
 while($row = $statement->fetch()) {
    $pw = $row['pw'];
+   $sql = null;
    if($password = $pw) {
        session_start();
        $_SESSION['login'] = array("uname" => $username);
