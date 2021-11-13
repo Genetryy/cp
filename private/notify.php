@@ -30,4 +30,4 @@ function notify($type, $msg) {
 
 ?>
 
-<div class='notify'><div class='alert alert-success' role='alert'>"Hey!"</div></div>
+<div class='alert alert-success' role='alert'>"Hey!"</div>
