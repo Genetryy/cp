@@ -29,4 +29,10 @@ function notify($type, $msg) {
 $type = "success";
 $msg = "Hey!";
 notify($type, $msg);
+
+
+function lol($msg) {
+    echo "hey".$msg;
+}
+lol("Marvin");
 ?>
