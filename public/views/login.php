@@ -98,7 +98,7 @@ while($row = $statement->fetch()) {
    if($password = $pw) {
        session_start();
        $_SESSION['login'] = array("uname" => $username);
-       notify("success", "Success!");
+       sendSuccess("You're being redirected...");
    }
 }
 
