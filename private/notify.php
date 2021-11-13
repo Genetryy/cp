@@ -26,6 +26,7 @@ function notify($type, $msg) {
     }
 
 }
-
-notify("success", "hey");
+$type = "success";
+$msg = "Hey!";
+notify($type, $msg);
 ?>
