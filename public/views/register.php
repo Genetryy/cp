@@ -88,9 +88,15 @@
 
     if($pw1 = $pw2) {
 
-    $pdo = new PDO('mysql:host=localhost, dbname=accounts', 'genetry.net', 'cheA15xeAqxeT4D2Rlyktm^oj');
-       $sql = "INSERT INTO users (uname, pw) VALUES (?,?)";
-       $pdo->prepare($sql)->execute([$username, $password]);
+       $pdo = new PDO('mysql:host=localhost, dbname=accounts', 'genetry.net', 'cheA15xeAqxeT4D2Rlyktm^oj');
+       
+       $data = [
+           'uname' => $username;
+           'pw' => $pw1;
+       ]
+       $sql = "INSERT INTO users (uname, pw) VALUES (:uname, :pw)";
+       $stmt = $pdo->prepare($sql);
+       $stmts->execute($data);
 
     }
 
