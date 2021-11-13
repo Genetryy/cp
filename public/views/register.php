@@ -86,7 +86,7 @@ $username = $_POST['username'];
 $pw1 = $_POST['password'];
 $pw2 = $_POST['password_2']
 
-if($pw1 = $pw2) {
+/*if($pw1 = $pw2) {
     $pdo = new PDO('mysql:host=localhost;dbname=accounts', 'genetry.net', 'cheA15xeAqxeT4D2Rlyktm^oj');
     // the password param is recognised as a part of the MySQL command. 
     $statement = $pdo->prepare("INSERT INTO users (uname, pw) VALUES (?, ?)");
@@ -94,7 +94,7 @@ if($pw1 = $pw2) {
 } else {
     echo "The passwords aren't matching.";
 }
-
+*/
 ?>
 
 </body>
