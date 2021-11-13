@@ -88,9 +88,9 @@ $pw2 = $_POST['password_2']
 
 
 if($pw1 = $pw2) {
-    $pdo = new PDO('mysql:host=localhost;dbname=accounts', 'genetry.net', 'cheA15xeAqxeT4D2Rlyktm^oj');
+/*    $pdo = new PDO('mysql:host=localhost;dbname=accounts', 'genetry.net', 'cheA15xeAqxeT4D2Rlyktm^oj');
     $statement = $pdo->prepare("INSERT INTO users (uname, pw) VALUES (?, ?)");
-    $statement->execute(array($username, $pw));
+    $statement->execute(array($username, $pw)); */
 }
 /*if($pw1 = $pw2) {
     $pdo = new PDO('mysql:host=localhost;dbname=accounts', 'genetry.net', 'cheA15xeAqxeT4D2Rlyktm^oj');
