@@ -1,3 +1,4 @@
+Hi
 <?php
 
-echo "Hello" . " " . $_SESSION['login'];
+//echo "Hello" . " " . $_SESSION['login'];
