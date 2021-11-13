@@ -26,13 +26,8 @@ function notify($type, $msg) {
     }
 
 }
-$type = "success";
-$msg = "Hey!";
-notify($type, $msg);
 
 
-function lol($msg) {
-    echo "hey".$msg;
-}
-lol("Marvin");
 ?>
+
+<div class='notify'><div class='alert alert-success' role='alert'>"Hey!"</div></div>
