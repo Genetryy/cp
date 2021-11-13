@@ -94,7 +94,7 @@ while($row = $statement->fetch()) {
    $pw = $row['pw'];
    if($password = $pw) {
        session_start();
-       $_SESSION['login'] = 1;
+       $_SESSION['login'] = array("uname" => $username);
        header("Location: admin/users");
    }
 }
