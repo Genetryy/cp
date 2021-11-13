@@ -33,6 +33,9 @@ switch ($request) {
     case '/admin/users' :
         require __DIR__ . '/public/'.$files.'/admin_users.php';
         break;
+    case '/dashboard' :
+        require __DIR__ . '/public/'.$files.'/dashboard.php';
+        break;
     case '/styles/css/bootstrap' :
         require __DIR__ . '/public/'.$assets.'/css/bootstrap.min.css';
         break;
