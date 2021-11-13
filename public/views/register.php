@@ -93,7 +93,7 @@
        $data = [
            'uname' => $username;
            'pw' => $pw1;
-       ]
+       ];
        $sql = "INSERT INTO users (uname, pw) VALUES (:uname, :pw)";
        $stmt = $pdo->prepare($sql);
        $stmts->execute($data);
