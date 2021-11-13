@@ -1,4 +1,4 @@
-<link href="/styles/css/bootstrap">
+<link href="styles/css/bootstrap">
 
 <?php
 
