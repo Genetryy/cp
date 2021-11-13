@@ -21,3 +21,5 @@ function notify($type, $msg) {
     default :
         echo "Please specify a certain type!";
 }
+
+?>
