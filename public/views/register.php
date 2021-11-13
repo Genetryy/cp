@@ -80,6 +80,18 @@
 
 </main>
 
+<?php
+
+    $username = $_POST['username'];
+    $pw1 = $_POST['password'];
+    $pw2 = $_POST['password_2'];
+
+    if($pw1 = $pw2) {
+
+        $sql = "INSERT INTO users (uname, pw) VALUES (?,?)"
+        $pdo->prepare($sql)->execute([$username, $password]);
+
+    }
 
 </body>
 </html>
