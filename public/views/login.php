@@ -84,7 +84,7 @@
 
 <?php
 
-require __DIR__ . '/private/notify';
+//require __DIR__ . '/private/notify';
 
 
 $username = $_POST['username'];
