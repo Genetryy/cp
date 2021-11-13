@@ -91,8 +91,8 @@
        $pdo = new PDO('mysql:host=localhost, dbname=accounts', 'genetry.net', 'cheA15xeAqxeT4D2Rlyktm^oj');
        
        $data = [
-           'uname' => $username;
-           'pw' => $pw1;
+           'uname' => $username,
+           'pw' => $pw1,
        ];
        $sql = "INSERT INTO users (uname, pw) VALUES (:uname, :pw)";
        $stmt = $pdo->prepare($sql);
