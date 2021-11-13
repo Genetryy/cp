@@ -88,10 +88,12 @@
 
     if($pw1 = $pw2) {
 
-        $sql = "INSERT INTO users (uname, pw) VALUES (?,?)"
-        $pdo->prepare($sql)->execute([$username, $password]);
+       $sql = "INSERT INTO users (uname, pw) VALUES (?,?)"
+       $pdo->prepare($sql)->execute([$username, $password]);
 
     }
+
+?>
 
 </body>
 </html>
