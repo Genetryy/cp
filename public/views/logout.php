@@ -1,1 +1,1 @@
-<button type="button" class="btn-close" aria-label="Logout" href="logout"></button> Are you shure yoou want to logout?
+<button type="button" class="btn-close" aria-label="Close" href="logout"></button> Are you shure yoou want to logout?
