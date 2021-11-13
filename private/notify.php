@@ -1,3 +1,5 @@
+<link href="/styles/css/bootstrap">
+
 <?php
 
 function notify($type, $msg) {
@@ -16,6 +18,6 @@ function notify($type, $msg) {
     case 'info' :
         echo "<div class='notify'><div class='alert alert-info' role='alert'>".$msg."</div></div>";
         break;
-    }
+    default :
+        echo "Please specify a certain type!";
 }
-
