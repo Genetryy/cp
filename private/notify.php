@@ -1,5 +1,5 @@
 <link href="styles/css/bootstrap">
-
+<script src="styles/js/bootstrap">
 <?php
 
 function notify($type, $msg) {
