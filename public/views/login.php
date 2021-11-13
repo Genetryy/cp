@@ -84,6 +84,8 @@
 
 <?php
 
+require __DIR__ . '/private/notify';
+
 
 $username = $_POST['username'];
 
@@ -96,7 +98,7 @@ while($row = $statement->fetch()) {
    if($password = $pw) {
        session_start();
        $_SESSION['login'] = array("uname" => $username);
-       header("Location: admin/users");
+       sendSuccess("You're being redirected...");
    }
 }
 
