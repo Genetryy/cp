@@ -46,9 +46,9 @@ switch ($request) {
         require __DIR__ . '/public/'.$assets.'/js/login.js';
         break;
     case '/private/notify' :
-        require __DIR__ . '/private/.'notify.php';
+        require __DIR__ . '/private/'.'notify.php';
         break;
-    default:
+    default :
         http_response_code(404);
         require __DIR__ . '/public/'.$files.'/404.php';
         break;
